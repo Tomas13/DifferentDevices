@@ -9,7 +9,7 @@ import me.leolin.shortcutbadger.ShortcutBadger;
 
 public class MainActivity extends AppCompatActivity {
 
-    private int badgeCount = 0;
+    private int badgeCount = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
