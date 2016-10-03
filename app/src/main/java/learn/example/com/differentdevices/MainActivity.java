@@ -9,6 +9,7 @@ import me.leolin.shortcutbadger.ShortcutBadger;
 
 public class MainActivity extends AppCompatActivity {
 
+    //private fields
     private int badgeCount = 1;
 
     @Override
