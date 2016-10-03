@@ -28,5 +28,16 @@
         android:onClick="startActivity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="StartActivity"/>
+        android:text="StartActivity"
+        android:id="@+id/button"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Count"
+        android:onClick="updateBadge"
+        android:layout_marginTop="16dp"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"/>
 </RelativeLayout>
